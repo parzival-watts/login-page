@@ -59,7 +59,7 @@ main {
                 font-weight: 400;
                 text-transform: uppercase;
 
-                div 
+                div
                 {
                     flex-grow: 1;
                     height: 2px;
@@ -76,6 +76,11 @@ main {
                 background-color: transparent;
                 padding: 12px 24px;
                 cursor: pointer;
+
+                &:disabled
+                {
+                  opacity: 0.8;
+                }
 
                 &.btn-primary {
                     background-color: $primary-color;
